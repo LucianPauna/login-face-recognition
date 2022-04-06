@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+header p {
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+nav input[type='submit'] {
+    margin-left: 2px;
+}
+
+@media (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav input[type='submit'] {
+        margin: 0 0 2px;
+    }
+}

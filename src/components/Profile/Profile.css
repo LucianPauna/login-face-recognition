@@ -1,0 +1,11 @@
+.Profile {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.Profile-inner {
+    background: rgba(255, 255, 255, .6);
+    padding: 20px 30px;
+    border-radius: 10px;;
+}

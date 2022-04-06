@@ -1,0 +1,41 @@
+.ImageLinkForm {
+    margin-top: 50px;
+}
+
+.ImageLinkForm p {
+    margin-bottom: 10px;
+    color: #FFF;
+    letter-spacing: 2px;
+}
+
+.ImageLinkForm-form {
+    display: flex;
+    justify-content: center;
+ }
+
+.ImageLinkForm-form input {
+   border: none;
+   height: 34px;
+   width: 70%;
+   outline: none;
+   padding: 0 10px;
+}
+
+.ImageLinkForm-form button {
+    border: none;
+    min-width: 100px;
+    margin-left: 5px;
+    outline: none;
+    background-color: #FFF;
+    color: #373B44;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    transition: background-color .4s ease-out;
+    cursor: pointer;
+ }
+
+ .ImageLinkForm-form button:hover {
+    background-color: #8e9eab;
+ }

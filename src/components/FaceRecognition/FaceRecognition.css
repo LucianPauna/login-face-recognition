@@ -1,0 +1,19 @@
+.FaceRecognition {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.FaceRecognition-inner {
+    position: relative;
+}
+
+.FaceRecognition img {
+    width: 100%;
+    max-width: 700px
+}
+
+.BoundingBox {
+    position: absolute;
+    box-shadow: 0 0 0 2px #4286f4 inset;
+}

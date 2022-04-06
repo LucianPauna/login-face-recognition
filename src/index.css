@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  padding: 0 20px;
+  background: linear-gradient(89deg, #373B44 0%, #4286f4 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Particles {
+  position: relative;
+  z-index: -1;
+}
+
+input[type='submit'] {
+  height: 28px;
+  padding: 5px 20px;
+  border: none;
+  min-width: 100px;
+  outline: none;
+  background-color: #FFF;
+  color: #373B44;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: background-color .4s ease-out, color .4s ease-out;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+input[type='submit']:hover {
+  background-color: #373B44 ;
+  color: #FFF
+}

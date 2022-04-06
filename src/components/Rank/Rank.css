@@ -1,0 +1,9 @@
+.Rank {
+    margin-top: 50px;
+    color: #FFF;
+}
+
+.Rank h2, .Rank h1 {
+    font-weight: 300;
+    letter-spacing: 2px;
+}
